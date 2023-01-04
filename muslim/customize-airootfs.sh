@@ -7,13 +7,16 @@ rm /etc/apt/apt.conf.d/01norecommend
 ### Install packages
 apt install wget
 
+### Muslim Theme
+https://github.com/muslim-xfce/muslim-theme/releases/download/current/muslim-backgrounds_1.0_all.deb
+
 ### 17g installer
 wget https://github.com/muslimos/17g-installer/releases/download/current/17g-installer_1.0_all.deb
 
 ### AppImage launcher
 wget https://github.com/mobilturka/mt-repo/raw/main/deb/appimagelauncher_2.2.0.deb
 
-### pardus lightdm greeter
+### Pardus lightdm greeter
 wget https://github.com/muslimos/pardus-lightdm-greeter/releases/download/current/pardus-lightdm-greeter_0.0.1_all.deb
 
 ## QMPlay2 Video and Sound Player
