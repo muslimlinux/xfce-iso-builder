@@ -7,9 +7,6 @@ rm /etc/apt/apt.conf.d/01norecommend
 ### Install packages
 apt install wget
 
-### Muslim Theme
-wget https://github.com/muslim-xfce/muslim-theme/releases/download/current/muslim-backgrounds_1.0_all.deb
-
 ### 17g installer
 wget https://github.com/muslimos/17g-installer/releases/download/current/17g-installer_1.0_all.deb
 
@@ -27,6 +24,5 @@ wget https://github.com/mobilturka/mt-repo/raw/main/deb/webapp-manager_1.2.8_all
 
 ## Foliate reader
 wget https://github.com/mobilturka/mt-repo/raw/main/deb/foliate_2.6.4_all.deb
-
 
 apt install ./*.deb -yq --allow-downgrades
