@@ -8,7 +8,7 @@ rm /etc/apt/apt.conf.d/01norecommend
 apt install wget
 
 ### Muslim Theme
-https://github.com/muslim-xfce/muslim-theme/releases/download/current/muslim-backgrounds_1.0_all.deb
+wget https://github.com/muslim-xfce/muslim-theme/releases/download/current/muslim-backgrounds_1.0_all.deb
 
 ### 17g installer
 wget https://github.com/muslimos/17g-installer/releases/download/current/17g-installer_1.0_all.deb
