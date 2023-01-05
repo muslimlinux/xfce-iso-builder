@@ -8,7 +8,7 @@ rm /etc/apt/apt.conf.d/01norecommend
 apt install wget
 
 ### 17g installer
-wget https://github.com/muslimos/17g-installer/releases/download/current/17g-installer_1.0_all.deb
+wget https://github.com/muslim-xfce/17g-installer/releases/download/current/17g-installer_1.0_all.deb
 
 ### AppImage launcher
 wget https://github.com/mobilturka/mt-repo/raw/main/deb/appimagelauncher_2.2.0.deb
