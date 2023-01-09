@@ -4,6 +4,9 @@ cd /tmp
 ### Drop no-recommend
 rm /etc/apt/apt.conf.d/01norecommend
 
+### fake systemctl (for nosystemd)
+ln -s true /bin/systemctl || true
+
 ### Install packages
 apt install wget
 
