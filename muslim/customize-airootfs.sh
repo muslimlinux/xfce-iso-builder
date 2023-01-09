@@ -28,4 +28,7 @@ wget https://github.com/mobilturka/mt-repo/raw/main/deb/webapp-manager_1.2.8_all
 ## Foliate reader
 wget https://github.com/mobilturka/mt-repo/raw/main/deb/foliate_2.6.4_all.deb
 
+### desktop-base package
+wget https://github.com/muslimos/desktop-base/releases/download/current/desktop-base_9999-noupdate_all.deb
+
 apt install ./*.deb -yq --allow-downgrades
