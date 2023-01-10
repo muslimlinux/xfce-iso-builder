@@ -1,11 +1,23 @@
 [xfdesktop-version-4.10.3+-rcfile_format]
 4.10.3+=true
 
-[/home/mt/Masaüstü/muslim-xfce-configal]
+[/home/muslim/Desktop/live-installer.desktop]
 row=3
 col=0
 
-[Çöp]
+[f9807fd8-322e-4251-997e-248884a60d43]
+row=6
+col=0
+
+[4E21-0000]
+row=5
+col=0
+
+[2023-01-09-08-05-59-00]
+row=4
+col=0
+
+[Trash]
 row=0
 col=0
 
@@ -13,7 +25,7 @@ col=0
 row=1
 col=0
 
-[/home/mt]
+[/home/muslim]
 row=2
 col=0
 
