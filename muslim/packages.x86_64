@@ -37,7 +37,7 @@ lightdm
 lightdm-gtk-greeter
 arc-theme
 orchis-gtk-theme
-papirus-icon-theme
+#papirus-icon-theme
 pavucontrol
 pulseaudio
 ca-certificates
