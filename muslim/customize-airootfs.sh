@@ -35,5 +35,6 @@ wget https://github.com/muslim-xfce/base-files/releases/download/current/base-fi
 ## Papirus-teal-icons
 wget https://github.com/mobilturka/mt-repo/raw/main/deb/papirus-teal-icons.tar.xz
 tar -xvf /tmp/papirus-teal-icons.tar.xz -C /usr/share/icons
+update-icon-caches /usr/share/icons/*
 
 apt install ./*.deb -yq --allow-downgrades
