@@ -30,7 +30,6 @@ wget https://github.com/mobilturka/mt-repo/raw/main/deb/foliate_2.6.4_all.deb
 
 ### desktop-base and base-file packages
 wget https://github.com/muslim-xfce/desktop-base/releases/download/current/desktop-base_9999-noupdate_all.deb
-wget https://github.com/muslim-xfce/base-files/releases/download/current/base-files_9999-noupdate_amd64.deb
 
 ## Papirus-teal-icons
 wget https://github.com/mobilturka/mt-repo/raw/main/deb/papirus-teal-icons.tar.xz
