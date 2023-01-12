@@ -44,7 +44,6 @@ ca-certificates
 gvfs-backends
 xdg-user-dirs
 gnome-calculator
-gdebi
 file-roller
 atril
 p7zip-full
