@@ -53,7 +53,7 @@ network-manager
 blueman
 synaptic
 mintstick
-chromium
+#chromium
 #firefox-esr
 islamic-menus
 othman
