@@ -1,14 +1,6 @@
 #!/usr/bin/env bash
 cd /tmp
 
-echo "deb http://deb.librewolf.net bullseye main" | sudo tee /etc/apt/sources.list.d/librewolf.list
-wget https://deb.librewolf.net/keyring.gpg -O /etc/apt/trusted.gpg.d/librewolf.gpg
-sudo apt update
-apt install librewolf -y
-
-## Firefox latest User Installer
-https://github.com/mobilturka/mt-repo/raw/main/deb/firefox_user_installer_0.1.0_amd64.deb
-
 ### Drop no-recommend
 rm /etc/apt/apt.conf.d/01norecommend
 
@@ -17,6 +9,15 @@ ln -s true /bin/systemctl || true
 
 ### Install packages
 apt install wget
+
+
+echo "deb http://deb.librewolf.net bullseye main" | sudo tee /etc/apt/sources.list.d/librewolf.list
+wget https://deb.librewolf.net/keyring.gpg -O /etc/apt/trusted.gpg.d/librewolf.gpg
+sudo apt update
+apt install librewolf -y
+
+## Firefox latest User Installer
+https://github.com/mobilturka/mt-repo/raw/main/deb/firefox_user_installer_0.1.0_amd64.deb
 
 ### 17g installer
 wget https://github.com/muslimos/17g-installer/releases/download/current/17g-installer_1.0_all.deb
