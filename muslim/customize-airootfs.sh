@@ -8,7 +8,7 @@ rm /etc/apt/apt.conf.d/01norecommend
 ln -s true /bin/systemctl || true
 
 ### Install packages
-apt install wget
+apt install wget -y
 
 echo "deb http://deb.librewolf.net bullseye main" | sudo tee /etc/apt/sources.list.d/librewolf.list
 wget https://deb.librewolf.net/keyring.gpg -O /etc/apt/trusted.gpg.d/librewolf.gpg
