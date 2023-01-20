@@ -1,7 +1,7 @@
 favorites=xfce4-web-browser.desktop,xfce4-mail-reader.desktop,xfce4-file-manager.desktop,xfce4-terminal-emulator.desktop
 recent=firefox-esr.desktop,xfce4-terminal-emulator.desktop,xfce-settings-manager.desktop,xfce-display-settings.desktop
 button-title=\ MuslimOS\ 
-button-icon=/usr/share/icons/muslim/menu.png
+button-icon=icon-islam
 button-single-row=false
 show-button-title=true
 show-button-icon=true
