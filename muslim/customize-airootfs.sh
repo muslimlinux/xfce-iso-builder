@@ -16,7 +16,6 @@ apt update
 apt install librewolf -y
 
 ### desktop-base package
-wget https://github.com/muslimos/desktop-base/raw/main/desktop-base-noupdate.deb
 
 ### pardus lightdm greeter
 wget https://github.com/muslimos/pardus-lightdm-greeter/releases/download/current/pardus-lightdm-greeter_0.0.1_all.deb
