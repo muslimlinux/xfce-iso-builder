@@ -36,7 +36,7 @@ xfce4-xkb-plugin
 mugshot
 lightdm
 lightdm-gtk-greeter
-slick-greeter
+#slick-greeter
 arc-theme
 orchis-gtk-theme
 #papirus-icon-theme
