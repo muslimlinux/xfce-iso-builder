@@ -10,11 +10,6 @@ ln -s true /bin/systemctl || true
 ### Install packages
 apt install wget
 
-echo "deb http://deb.librewolf.net bullseye main" | sudo tee /etc/apt/sources.list.d/librewolf.list
-wget https://deb.librewolf.net/keyring.gpg -O /etc/apt/trusted.gpg.d/librewolf.gpg
-apt update
-apt install librewolf -y
-
 ### 17g installer
 wget https://github.com/muslimos/17g-installer/releases/download/current/17g-installer_1.0_all.deb
 
