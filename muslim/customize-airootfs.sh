@@ -14,7 +14,7 @@ apt install wget
 wget https://github.com/muslimos/17g-installer/releases/download/current/17g-installer_1.0_all.deb
 
 ## Firefox latest User Installer
-wget https://github.com/muslimos/debhane/raw/main/firefox_user_installer_0.1.0_amd64.deb
+#wget https://github.com/muslimos/debhane/raw/main/firefox_user_installer_0.1.0_amd64.deb
 
 ### AppImage launcher
 wget https://github.com/muslimos/debhane/raw/main/appimagelauncher_2.2.0.deb
