@@ -30,7 +30,8 @@ wget https://github.com/muslimos/debhane/raw/main/foliate_2.6.4_all.deb
 
 ## Papirus-teal-icons
 wget https://github.com/muslimos/debhane/raw/main/papirus-teal-icon-theme.deb
-wget https://github.com/muslimos/debhane/raw/main/muslim-grub-theme.deb
+wget https://github.com/muslimos/desktop-base/raw/main/desktop-base-noupdate.deb
+#wget https://github.com/muslimos/debhane/raw/main/muslim-grub-theme.deb
 wget https://github.com/muslimos/debhane/raw/main/pardus-lightdm-greeter_0.0.3_all.deb
 
 ### System Monitoring Center
