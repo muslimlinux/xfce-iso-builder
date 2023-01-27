@@ -47,9 +47,11 @@ gvfs-backends
 xdg-user-dirs
 gnome-calculator
 file-roller
+p7zip-full
+p7zip-rar
+zstd
 atril
 xpad
-p7zip-full
 network-manager-gnome
 network-manager
 blueman
