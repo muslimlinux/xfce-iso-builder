@@ -4,33 +4,26 @@ cd /tmp
 ### Drop no-recommend
 rm /etc/apt/apt.conf.d/01norecommend
 
-### fake systemctl (for nosystemd)
-ln -s true /bin/systemctl || true
-
 ### Install packages
 apt install wget
 
 ### 17g installer
 wget https://github.com/muslimos/17g-installer/releases/download/current/17g-installer_1.0_all.deb
 
-## Firefox latest User Installer
-wget https://github.com/muslimos/debhane/raw/main/firefox_user_installer_0.1.0_amd64.deb
-
 ### AppImage launcher
 wget https://github.com/muslimos/debhane/raw/main/appimagelauncher_2.2.0.deb
 
-## QMPlay2 Video and Sound Player
+### QMPlay2 Video and Sound Player
 wget https://github.com/muslimos/debhane/raw/main/qmplay2-22-10-23-amd64.deb
 
-## Webapp Manager
+### Webapp Manager
 wget https://github.com/muslimos/debhane/raw/main/webapp-manager_1.2.8_all.deb
 
-## Foliate reader
+### Foliate reader
 wget https://github.com/muslimos/debhane/raw/main/foliate_2.6.4_all.deb
 
-## Papirus-teal-icons
+### Papirus-teal-icons
 wget https://github.com/muslimos/debhane/raw/main/papirus-teal-icon-theme.deb
-wget https://github.com/muslimos/desktop-base/raw/main/desktop-base-end.deb
 #wget https://github.com/muslimos/debhane/raw/main/muslim-grub-theme.deb
 wget https://github.com/muslimos/debhane/raw/main/pardus-lightdm-greeter_0.0.3_all.deb
 
