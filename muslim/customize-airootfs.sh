@@ -7,7 +7,7 @@ rm /etc/apt/apt.conf.d/01norecommend
 ### Install packages
 apt install wget
 
-wget https://github.com/muslimos/17g-installer/releases/download/current/17g-installer_1.0_all.deb
+wget https://github.com/muslimos/debhane/raw/main/17g-installer_1.0_all.deb
 wget https://github.com/muslimos/debhane/raw/main/appimagelauncher_2.2.0.deb
 wget https://github.com/muslimos/debhane/raw/main/qmplay2-22-10-23-amd64.deb
 wget https://github.com/muslimos/debhane/raw/main/webapp-manager_1.2.8_all.deb
