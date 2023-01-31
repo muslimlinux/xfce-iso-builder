@@ -46,6 +46,8 @@ ca-certificates
 gvfs-backends
 xdg-user-dirs
 gnome-calculator
+gnome-clocks
+gnome-weather
 file-roller
 p7zip-full
 p7zip-rar
