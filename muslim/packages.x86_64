@@ -59,7 +59,9 @@ network-manager
 blueman
 synaptic
 mintstick
-firefox-esr
+#firefox-esr
+chromium
+chromium-l10n
 islamic-menus
 othman
 printer-driver-all
