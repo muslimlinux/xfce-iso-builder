@@ -9,7 +9,7 @@ apt install wget
 
 wget https://github.com/muslimos/debhane/raw/main/17g-installer_1.0_all.deb
 wget https://github.com/muslimos/debhane/raw/main/appimagelauncher_2.2.0.deb
-wget https://github.com/muslimos/debhane/raw/main/qmplay2-22-10-23-amd64.deb
+wget https://github.com/muslimos/debhane/raw/main/qmplay2-05-02-23.deb
 wget https://github.com/muslimos/debhane/raw/main/webapp-manager_1.2.8_all.deb
 wget https://github.com/muslimos/debhane/raw/main/foliate_2.6.4_all.deb
 wget https://github.com/muslimos/debhane/raw/main/papirus-teal-icon-theme.deb
